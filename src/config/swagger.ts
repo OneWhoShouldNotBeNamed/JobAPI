@@ -8,7 +8,7 @@ const options: swaggerJSDoc.Options = {
       version: '1.0.0',
       description: 'API for job listings and user authentication',
     },
-    servers: [{ url: 'http://localhost:5000' }],
+    servers: [{ url: 'http://localhost:5000' },{"url":"https://jobapi-yyei.onrender.com/"}],
     components: {
       securitySchemes: {
         bearerAuth: {
